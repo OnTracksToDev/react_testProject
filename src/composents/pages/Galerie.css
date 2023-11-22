@@ -1,0 +1,43 @@
+.carousel-slide{
+    height: 100vh;
+} 
+
+.video-container{
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin: 1rem;
+}
+.video{
+    left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+h4{
+    padding: 15px;
+}
+.card{
+    background-color: #264653;
+    width: 20rem;
+    margin: 1rem;
+    transition: transform .2s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card-container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.card-title{
+    color: white;
+    text-transform: uppercase;
+}

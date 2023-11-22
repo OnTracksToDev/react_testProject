@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+body {
+  background-color: #296654;
+}
+h2,h3{
+
+  text-align: center;
+  color:white;
+  margin: 2rem;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+h1{
+  padding: 15px;
+  text-align: center;
+  color:white;
+  margin: 2rem;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 75px;
+}
+h4{
+  color: white;
+  padding: 15px;
+}
+li{
+  color: white;
+}
+p{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+
+}
+footer p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 0;
+
+}
+.logo{
+  width:50px;
+}
+footer{
+  background-color: #264653;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  
+
+}
